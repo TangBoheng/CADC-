@@ -1,0 +1,22 @@
+.\darknet.exe detector demo E:\vs\722\720backup\720.data E:\vs\722\720backup\720.cfg E:\vs\722\720backup\720backup\720_20000.weights
+
+添加畸变矫正函数
+cvInitUndistortMap(intrisic, distortion, mapx, mapy);
+	IplImage* get_webcam_frame(CvCapture *cap, CvMat * intrisic, CvMat * distortion) {
+
+		image get_image_from_stream_cpp(CvCapture *cap, CvMat * intrisic, CvMat * distortion)
+
+			void threat_classifier(char *datacfg, char *cfgfile, char *weightfile, int cam_index, const char *filename, CvMat * intrisic, CvMat * distortion)
+
+			void gun_classifier(char *datacfg, char *cfgfile, char *weightfile, int cam_index, const char *filename, CvMat * intrisic, CvMat * distortion)
+
+			void demo_classifier(char *datacfg, char *cfgfile, char *weightfile, int cam_index, const char *filename, CvMat * intrisic, CvMat * distortion)
+
+				int main(int argc, char **argv)
+		int wait_for_stream(CvCapture *cap, IplImage* src, int dont_close, CvMat * intrisic, CvMat * distortion) {
+		
+		image get_image_from_stream_resize(CvCapture *cap, int w, int h, int c, IplImage** in_img, int cpp_video_capture, int dont_close, CvMat * intrisic, CvMat * distortion)
+	
+		image get_image_from_stream_letterbox(CvCapture *cap, int w, int h, int c, IplImage** in_img, int cpp_video_capture, int dont_close, CvMat * intrisic, CvMat * distortion)
+
+cap, intrisic, distortion
