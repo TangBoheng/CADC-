@@ -1,0 +1,14 @@
+718在有球背景下识别准确率很低
+
+重新制作720数据集，包含有球背景。暂时不对球进行分类，1.工作量太大 2.球不全 3.光照因素影响大
+
+使用718_10000.weight 作为预训练集看结果如何。不行的话再用718数据集和720一起训练
+
+
+./darknet detector train /home/t/Desktop/bing/720/720.data /home/t/Desktop/bing/720/720.cfg /home/t/Desktop/bing/720/718_10000.weights
+
+
+
+./darknet detector demo /home/t/Desktop/bing/720/720.data /home/t/Desktop/bing/720/720.cfg /home/t/Desktop/bing/720/720backup/720_20000.weights
+
+

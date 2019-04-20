@@ -1,0 +1,6 @@
+classes=1
+train  = E:\vs\722\720backup\720train.txt
+valid  = E:\vs\722\720backup\720/720test.txt
+names  = E:\vs\722\720backup\720.names
+backup = E:\vs\722\720backup\720backup
+
